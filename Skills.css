@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #123930, #034323);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  /* Skill Category Styles */
+  .skilldiv {
+    margin-bottom: 30px;
+  }
+  
+  .skilldiv h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skills-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills-list i {
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .skills-list {
+      justify-content: flex-start;
+    }
+  
+    .skills-list li {
+      width: 100%;
+      justify-content: flex-start;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .skills-list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .skills-list li {
+      width: 100%;
+    }
+  }
+  

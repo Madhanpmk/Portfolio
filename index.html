@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <nav id="navbar">
+    
+    <div class="menu-toggle" id="menu-toggle" >
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+      <li><a href="About.html"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="Projects.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+      <li><a href="Contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+      <li><a href="achivements.html"><i class="fas fa-trophy"></i> Achievements</a></li>
+      <li><a href="Skills.html"><i class="fas fa-user"></i> Skills</a></li>
+      <li><a href="Internship.html"><i class="fas fa-user"></i> Internship</a></li>
+    </ul>
+  </nav>
+  
+ 
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <img src="D:\Portfolio\images\madhan.jpg"  class="profile-img"><br><br>
+        <div class="header-text">
+          
+          <h1>MadhanKumar P.  MCA.,</h1>
+          <p>Full Stack Developer | Designer | Programmer</p>
+        </div>
+      
+      </div>
+    </div>
+  </header>
+
+
+  
+    <!-- Hamburger Menu for Mobile -->
+
+
+
+ 
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('navbar').querySelector('ul');
+  
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('show');
+    });
+  </script>
+  
+
+
+
